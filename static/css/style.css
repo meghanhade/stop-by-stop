@@ -1,0 +1,266 @@
+#map { position:absolute; top:0; bottom:0; left:0; width:100%; }
+#minuteDelay2 {
+    display:block;
+   
+    width:225px;
+    z-index:100;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding:5px;
+    border:none;
+    background:rgba(255,255,255,0.9);
+}
+#minuteDelay3 {
+    display:block;    
+    width:225px;
+    z-index:100;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding:5px;
+    border:none;
+    background:rgba(255,255,255,0.9);
+}
+#minuteDelay4 {
+    display:block;
+    width:225px;
+    z-index:100;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding:5px;
+    border:none;
+    background:rgba(255,255,255,0.9);
+}
+
+#roundTrip {
+    display:block;
+    position:absolute;
+    top:150px;
+    left:30px;
+    width: 225px;
+    z-index:100;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding:5px;
+    border:none;
+    /*background-color: white;*/
+    background:rgba(255,255,255,0.9);
+}
+#dateTime {
+    display:block;
+    position:absolute;
+    top:205px;
+    left:30px;
+    width: 225px;
+    height: 20px;
+    z-index:100;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding:5px;
+    border:none;
+    background:rgba(255,255,255,0.9);
+}
+
+#leaveNow {
+    display:block;
+    position:absolute;
+    top:175px;
+    left:30px;
+    width: 225px;
+    z-index:100;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding:5px;
+    border:none;
+    background:rgba(255,255,255,0.9);
+}
+
+#logo {
+  position: absolute;
+  z-index:100;
+  top:20px;
+  right:20px;
+  width:300px;
+}
+
+#logo img
+{
+    width:100%;
+}
+
+#key {
+  position: absolute;
+  z-index:100;
+  bottom:30px;
+  right:20px;
+  width:250px;
+}
+
+#key img
+{
+    width:100%;
+}
+
+.leaflet-bar a {
+    background:rgba(255,255,255,0.7);
+}
+
+.leaflet-bar:hover a {
+    background:rgba(255,255,255,0.9);
+}
+
+.startOver {
+    background:rgba(92,185,213,0.85);
+    color:#FFF;
+    display:block;
+    position:absolute;
+    bottom: 30px;
+    left:30px;
+    width:225px;
+    height: 20px;
+    z-index:100;
+    text-align:center;
+    padding:5px;
+    border:none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.startOver:hover {
+    background:rgba(92,185,213,1);
+    color:#fff;
+}
+
+.ui-button_route {
+    background:rgba(184,48,168,0.85);
+    color:#FFF;
+    display:block;
+    position:absolute;
+    bottom:65px;
+    left:30px;
+    width:225px;
+    height: 20px;
+    z-index:100;
+    text-align:center;
+    padding:5px;
+    border:none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*.startOver {
+    background:rgba(92,185,213,0.75);
+    color:#FFF;
+    display:block;
+    position:absolute;
+    bottom: 30px;
+    left:30px;
+    width:225px;
+    height: 20px;
+    z-index:100;
+    text-align:center;
+    padding:5px;
+    border:none;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    cursor: pointer;
+}*/
+
+.ui-button_route:hover {
+    background:rgba(184,48,168,1);
+    color:#fff;
+}
+
+.ui-button_marker {
+    background:rgba(56,135,190,0.85);
+    color:#FFF;
+    display:block;
+    position:absolute;
+    top:100px;
+    left:30px;
+    width:225px;
+    height: 20px;
+    z-index:100;
+    text-align:center;
+    padding:5px;
+    border:none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#timeDelayContainer {
+    z-index: 100;
+    width:225px;
+    height:135px;
+    position: absolute;
+    left: 30px;
+    top: 235px;
+}
+
+#timeDelayContainer input {
+    border: 1px solid;
+    width:225px;
+}
+
+#resultsContainer {
+    display: none;
+    z-index: 100;
+    width:225px;
+    height:500px;
+    position: absolute;
+    left: 30px;
+    top: 115px;
+}
+
+#accordian
+{
+    height: 200px;
+    width:225px;
+
+}
+
+#resultsContainer #accordian div {
+    overflow: auto;
+    border: none;
+    height: 200px !important;
+    width:225px;
+
+} 
+
+.ui-button_marker.disabled{
+    background:rgba(56,135,190,0.4);
+    cursor:not-allowed;
+}
+
+.ui-button_marker.disabled:hover{
+    background:rgba(0,0,0,0.4);
+    cursor:not-allowed;
+}
+
+.ui-button_marker:hover {
+    background:rgba(56,135,190,1);
+    color:#fff;
+}
+
+p {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}

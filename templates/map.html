@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset=utf-8 />
+    <title>StopHop</title>
+    <!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"> -->
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.2.0/mapbox.css' rel='stylesheet' />
+    <script src="../static/js/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+    <script src="../static/js/polyline.js"></script>
+    <script src='http://api.tiles.mapbox.com/mapbox.js/v1.2.0/mapbox.js'></script>
+   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Maven+Pro|Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+  </head>
+  <body>  
+     
+    <div id='map'></div>
+    <a class='startOver'>START OVER</a>
+    <div id="logo"><img src="../static/img/StopHop.png"></div>
+    <div id="key"><img src="../static/img/key.png"></div>
+    
+    <div id="inputContainer">
+      <a class='ui-button_marker'>+ ADD DESTINATION</a>
+      <a class='ui-button_route'>FIND ROUTE!</a>
+      <div id="timeDelayContainer"></div>
+      <div id="roundTrip">
+        <input type="checkbox" name="roundTrip">Roundtrip
+      </div>
+      <div id="leaveNow">
+        <input type="checkbox" name="leaveNow">Leave now
+      </div> 
+      <input id='dateTime' type=datetime-local>
+    </div>
+
+    <div id="resultsContainer">
+      <div id="accordion"></div>
+    </div>
+   
+    <script type='text/javascript' src="../static/js/script.js"></script>
+
+  </body>
+</html>
